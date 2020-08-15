@@ -1,0 +1,103 @@
+.dropdown {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: map-get($bg-color, primary);
+  color: map-get($color, primary);
+  cursor: pointer;
+
+  ul {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: none;
+  }
+
+  a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: map-get($color, primary);
+  }
+
+}
+
+  .dropdown.is-active ul {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.nav{
+  margin: 30px ;
+  background-color: $bg-color-menu;
+}
+.nav{
+  ul{
+     list-style: none;
+  }
+  .menu{
+    > li{
+      position: relative;
+      display: inline-block; 
+
+      &:hover{
+        .submenu{
+          display: block;
+        }
+      }
+    }
+
+    a{
+      display: block;
+      padding: 15px 20px;
+      color: $nav-color-link;
+      text-decoration: none;
+
+      &:hover{
+        background-color: $bg-color-hover;
+      }
+    }   
+  }
+  .submenu{
+    position: absolute;
+    width: 100%;
+    background-color: $bg-color-submenu;
+    display: none;
+
+    a{
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      color: $nav-color-link;
+    }
+  }  
+}
+*/
