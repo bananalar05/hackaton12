@@ -11,7 +11,8 @@
 
 <body>
   <h1>Bienvenido a Travel Tickets</h1>
-  <div class="dropdown">
+  <button class="js_open_modal button-modal">Ver Ofertas</button>
+  <div class="dropdown-main">
     <h2>¿Qué deseas realizar?</h2>
     <div class="d-flex justify-center">
       <div class="dropdown">
@@ -33,25 +34,35 @@
     </div>
   </div>
 
-  <br><br><br><br><br><br><br><br><br>
-  <header>
-    <nav class="nav">
-      <ul class="menu">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Products</a>
-          <ul class="submenu">
-            <li><a href="">Laptops</a></li>
-            <li><a href="">Celulares</a></li>
-            <li><a href="">Gadgets</a></li>
-          </ul>
-        </li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="collapse-main">
+    <h2>Descubre nuevos lugares</h2>
+    <div>
+      <div class="collapse">
+        <div class="collapse__tittle active">Latinoamerica</div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus suscipit reprehenderit, illum, consectetur nulla, eos ad adipisci ipsum debitis quo pariatur? Totam dolores atque nisi illum culpa veritatis praesentium ducimus et facere, quos laborum, distinctio eveniet aspernatur cumque iste qui esse. Minima, nesciunt. Sunt voluptas natus est placeat incidunt, sit, enim, dolore facere doloremque itaque unde animi voluptate modi commodi?</p>
+      </div>
+      <div class="collapse">
+        <div class="collapse__tittle">Oceanía</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero placeat repellendus eveniet autem dolore itaque, minus suscipit sint est, dolor dolores dicta, eum ab sed magni quia optio. Blanditiis similique molestiae voluptatum. A soluta delectus nam incidunt, nulla, similique minima odit ex praesentium non aut eos excepturi temporibus pariatur maxime voluptatem beatae at explicabo.</p>
+      </div>
+      <div class="collapse">
+        <div class="collapse__tittle">Asia</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat perferendis ab magnam rem adipisci quo odit dignissimos mollitia reprehenderit laborum ipsam, hic sit fuga quae libero, cupiditate voluptas fugit aut dolorum autem voluptate. Ad nemo cupiditate soluta sunt molestiae earum est eos officiis praesentium. Beatae porro distinctio qui, necessitatibus placeat laudantium dolore nemo, aliquam repudiandae sunt quae quos labore.</p>
+      </div>
+    </div>
+  </div>
 
-  <script src="./scripts/main.js"></script>
+  <div class="js_modal modal-main">
+    <div class="modal">
+      <h2>ÚLTIMA LLAMADA A AUCKLAND!!!</h2>
+      <div>
+        <button class="js_modal_accept button ">comprar ahora</button>
+        <button class="js_modal_close button ">cerrar</button>
+      </div>      
+    </div>
+  </div>
+
+<script type="module" src="./scripts/main.js"></script>
 </body>
 
 </html>

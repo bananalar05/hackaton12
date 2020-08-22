@@ -1,11 +1,23 @@
-.dropdown {
-  max-width: 500px;
+.dropdown-main{
+  width: 70%;
   margin: auto;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: rgba(128, 128, 128, 0.678);
+  margin-bottom: 50px;
+
+  h2 {
+    /* Box-model */
+    margin-bottom: 25px;
+    /*Tipografía*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.0rem;
+    color: map-get($color, primary);
+    text-align: center;
+  }
+}
+
+.dropdown {
   color: map-get($color, primary);
   cursor: pointer;
+  position: relative;
 
   ul {
     position: absolute;
@@ -15,10 +27,20 @@
   }
 
   a{
+    width: 78%;
+    margin: auto;
     display: block;
     text-decoration: none;
     padding: 10px;
+    border-radius: 5px;
+
+    background-color: rgba(31, 43, 43, 0.521);
     color: map-get($color, primary);
+    text-align: center;
+
+    &:hover{
+      background-color: darkslategrey;
+    }
   }
 
 }
@@ -26,32 +48,6 @@
   .dropdown.is-active ul {
     display: block;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*

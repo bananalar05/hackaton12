@@ -1,0 +1,46 @@
+.modal-main {
+  position: absolute;
+  background-color: rgba(0,0,0,.5);
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  /*margin-top: 0;*/
+  /*display: none;*/
+}
+
+.modal-main.is-modal-open{
+  display: block;
+}
+
+.modal {
+  display: block;
+
+  background-color: rgb(14, 255, 215);
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: map-get($color, primary);
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  
+  h2 {
+    margin-bottom: 15px;
+    color: black;
+  }
+
+  button {
+    font-size: 1.5rem;
+    color: red;
+  }
+
+}
+
+
